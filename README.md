@@ -14,12 +14,15 @@ wget -O install-nethunter-termux
  https://offs.ec/2MceZWr
 
 chmod +x install-nethunter-termux
+
 ./install-nethunter-termux  
  
 #write this on the command line
+
 nethunter  
 
 #After few time write this command
+
 nethunter kex passwd   
 
 nethunter kex &   
