@@ -30,6 +30,8 @@ nethunter kex &
 localhost:5901
 
 #password that you write
+ 
+#enjoy your kali gui in phone
 
 
 
