@@ -1,4 +1,4 @@
-# Kali Linux GUI on Android (Termux + NetHunter)
+# Kali Linux GUI on Android (Termux + kali NetHunter)
 
 Install Kali Linux GUI on your Android device using **Termux** and **Kali NetHunter**.
 
