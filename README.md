@@ -1,37 +1,110 @@
-# code-kali
-Downlod termux from f-droid and type this command 👇
+# Kali Linux GUI on Android (Termux + NetHunter)
 
-# Update and upgrade packages
+Install Kali Linux GUI on your Android device using **Termux** and **Kali NetHunter**.
+
+---
+
+## 1. Install Termux
+
+Download Termux from **F-Droid** (recommended):
+
+https://f-droid.org/packages/com.termux/
+
+---
+
+## 2. Update Packages
+
+Open Termux and run:
+
+```bash
 pkg update && pkg upgrade -y
+```
 
-# Install required tools
+---
+
+## 3. Install Required Tool
+
+```bash
 pkg install wget -y
+```
 
-# Download and run the Kali NetHunter installer 
+---
 
+## 4. Download Kali NetHunter Installer
+
+```bash
 wget -O install-nethunter-termux https://offs.ec/2MceZWr
+```
 
+Make the script executable:
+
+```bash
 chmod +x install-nethunter-termux
+```
 
-./install-nethunter-termux  
- 
-#write this on the command line
+Run the installer:
 
-nethunter  
+```bash
+./install-nethunter-termux
+```
 
-#After few time write this command
+---
 
-nethunter kex passwd   
+## 5. Start Kali NetHunter
 
-nethunter kex &   
-#write password it will not show in screen
+After installation completes, start NetHunter:
 
--#downlod VncViewer or nnethunterKex. And paste this 👇
+```bash
+nethunter
+```
+
+---
+
+## 6. Setup KeX (Kali GUI)
+
+Set a password for KeX:
+
+```bash
+nethunter kex passwd
+```
+
+Start the GUI server:
+
+```bash
+nethunter kex &
+```
+
+Enter the password when asked (it will not appear on the screen).
+
+---
+
+## 7. Connect Using VNC
+
+Install a VNC viewer app:
+
+- **RealVNC Viewer**
+- **NetHunter KeX App**
+
+Connect using:
+
+```
 localhost:5901
+```
 
-#password that you write
- 
-#enjoy your kali gui in phone
+Use the **password you created earlier**.
+
+---
+
+## Done
+
+You can now use **Kali Linux GUI on your Android phone**.
+
+---
+
+## Disclaimer
+
+This setup is intended for **learning, cybersecurity practice, and development purposes only**.  
+Use responsibly and follow all applicable laws and ethical guidelines.
 
 
 
